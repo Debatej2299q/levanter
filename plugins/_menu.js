@@ -37,7 +37,7 @@ bot.addCommand(
 │ Plugins : ${PLUGINS.count}
 │ Ram : ${getRam()}
 │ Uptime : ${getUptime('t')}
-│ Platform : ${getPlatform()}
+│ 
 ╰────────────────
 ╭────────────────
 `
@@ -93,9 +93,9 @@ bot.addCommand(
       }
     })
     const [date, time] = getDate()
-    let msg = `\`\`\`╭═══ LEVANTER ═══⊷
+    let msg = `\`\`\`╭═══ ɖɛɮ-ɮʊɢ ═══⊷
 ┃❃╭──────────────
-┃❃│ Prefix : ${PREFIX}
+┃❃│ PreFix : ${PREFIX}
 ┃❃│ User : ${message.pushName}
 ┃❃│ Time : ${time}
 ┃❃│ Day : ${date.toLocaleString('en', { weekday: 'long' })}
@@ -104,7 +104,8 @@ bot.addCommand(
 ┃❃│ Plugins : ${PLUGINS.count}
 ┃❃│ Ram : ${getRam()}
 ┃❃│ Uptime : ${getUptime('t')}
-┃❃│ Platform : ${getPlatform()}
+┃❃│ GithuB : Debatej2299q
+┃❃│ A BoT By ⚡𝘿𝞢𝞑𝞓𝙏𝞢𝙅🍷 
 ┃❃╰───────────────
 ╰═════════════════⊷\`\`\`\n`
 
